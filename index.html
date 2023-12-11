@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wingify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="popup-body" id="modelCard">
+        <div class="popup-card">
+            <div class="close" onclick="handleShowModel('none')"></div>
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="content-card">
+                        <h1 class="text-center heading-text">GET $10 OFF WHEN YOU SIGN UP FOR <br>
+                            <span class="text-normal">GET $10 OFF WHEN YOU SIGN UP FOR</span>
+                        </h1>
+                        <form action="#" id="signUpForm">
+                            <div class="input-group">
+                                <input class="form-input" type="text" name="name" placeholder="your name" required>
+                                <span id="nameError"></span>
+                            </div>
+                            <div class="input-group">
+                                <input class="form-input" type="email" name="email" placeholder="Email Address" required>
+                                <span id="emailError"></span>
+                            </div>
+                            <div class="check-group">
+                                <input class="form-check" type="checkbox" name="newsletter" id="newsletter" required>
+                                <label class="form-check-text" for="newsletter">Check this box to recevie monthly newsletter.</label>
+                            </div>
+                            <div class="text-center"> 
+                                <button class="btn">SIGN UP</button>
+                                <a href="#" class="link-text">privacy policy</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center m-d-none">
+                    <div class="sale-img">
+                        <img class="w-100" src="./images/offerx500.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
